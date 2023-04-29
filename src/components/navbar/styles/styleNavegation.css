@@ -1,0 +1,11 @@
+.containerNavLink{
+    gap:15px
+}
+.navLink{
+    color:white; 
+    transition: 0.2s; 
+}
+
+.navLink:hover{
+    color: rgb(57, 235, 235) !important;
+}
