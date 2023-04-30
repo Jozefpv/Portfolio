@@ -25,3 +25,17 @@
     width: 7px;
     height: 7px;
 }
+
+@media (max-width: 600px) {
+ .circleContainer{
+    padding-top: 30px;
+    margin-bottom: 0px;
+ }
+}
+
+@media (max-width: 430px) {
+    .circleContainer{
+       padding-top: 80px;
+       margin-bottom: 0px;
+    }
+   }
