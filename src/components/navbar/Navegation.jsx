@@ -1,20 +1,13 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import './styles/styleNavegation.css'
+import { Link } from 'react-scroll';
 function Navegation() {
   return (
-
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Nav className="containerNavLink">
-            <Nav.Link className="navLink" href="#home">ABOUT</Nav.Link>
-            <Nav.Link className="navLink"  href="#features">TECH STACK</Nav.Link>
-            <Nav.Link className="navLink"  href="#pricing">PROJECTS</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-     
+    <div className='containerNavbar'>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={100} className="navLink">ABOUT</Link>
+        <Link className="navLink" to="tech" spy={true} smooth={true} offset={-100} duration={100}>TECH STACK</Link>
+        <Link className="navLink" to="projects" spy={true} smooth={true} offset={-100} duration={100}>PROJECTS</Link>
+    </div>
   );
 }
 

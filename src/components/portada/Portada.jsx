@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Portada() {
     return (
-        <div className="containerPortada">
+        <div className="containerPortada" id='about'>
             <div className="containerTextSection">
                 <h3 className='titleText'>
                     FullStack Developer
