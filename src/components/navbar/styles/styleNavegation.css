@@ -23,3 +23,10 @@
     color: rgb(57, 235, 235) !important;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .containerNavbar{
+       padding-left: 0;
+       justify-content: center;
+    }
+   }
